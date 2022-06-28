@@ -7,7 +7,7 @@ where `Assembly (x86)` meets `C` meets binary exploits in a competition so fierc
 only 5 people dared to participate in.
 
 We took 3 days out of our exam preparation period in order to prove our skills
-to the rest of the passive, by default partcipants, but, gradually, the challanges
+to the rest of the passive, by default participants, but, gradually, the challanges
 became so alien like, I felt helpless and eventually, to my desperation, had to
 drop out. Credits go to [Alex Buzea](https://github.com/alexandrubuzea) who chose the very last challange, based
 on Numerical Methods knowledge; without him, my desperation wouldn't have reached
