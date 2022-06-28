@@ -6,6 +6,7 @@ Write a function that determines the nth element of the series with the followin
 formula:
 
 ` F(n) = F(n - 1) + F(n - 2) + F(n - 3) + F(n - 4) `
+
 ` F(0) = 0, F(1) = 1, F(2) = 2, F(3) = 3 `
 
 Obs:
