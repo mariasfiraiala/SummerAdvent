@@ -16,5 +16,6 @@ the monumental height before the final, harsh decision to give up.
 This repo contains my attempts to the first 2 days challenges; if I ever become
 so great at `IHS` and `MN`, I'll update the third day exercises.
 
-Until then, 
+Until then,
+
 Peace :v:
