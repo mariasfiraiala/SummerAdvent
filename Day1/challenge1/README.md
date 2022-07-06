@@ -4,7 +4,7 @@ Copyright 2022 Maria Sfiraiala (maria.sfiraiala@stud.acs.upb.ro)
 
 Implement the following `C` code in `Assembly (x86)`
 
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 
